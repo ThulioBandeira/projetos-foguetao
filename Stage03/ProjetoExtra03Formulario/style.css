@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #efefef;
+}
+body::before {
+  content: "";
+  width: 100%;
+  height: 436px;
+  background: #535971;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+header {
+  height: 126px;
+  width: 354px;
+  color: #fff;
+
+}
+.page {
+  font-family: "Staatliches", cursive;
+  position: relative;
+  top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page h1 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: normal;
+}
+.page p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+form {
+  width: 750px;
+  max-height: 1084px;
+  background: #fff;
+  padding: 64px;
+}
+
